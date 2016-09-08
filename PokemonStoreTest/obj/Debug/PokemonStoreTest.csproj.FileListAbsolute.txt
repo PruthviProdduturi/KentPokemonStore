@@ -1,0 +1,7 @@
+D:\KENT\PokemonStore\PokemonStoreTest\obj\Debug\PokemonStoreTest.csprojResolveAssemblyReference.cache
+D:\KENT\PokemonStore\PokemonStoreTest\bin\Debug\PokemonStoreTest.dll
+D:\KENT\PokemonStore\PokemonStoreTest\bin\Debug\PokemonStoreTest.pdb
+D:\KENT\PokemonStore\PokemonStoreTest\bin\Debug\PokemonStore.exe
+D:\KENT\PokemonStore\PokemonStoreTest\bin\Debug\PokemonStore.pdb
+D:\KENT\PokemonStore\PokemonStoreTest\obj\Debug\PokemonStoreTest.dll
+D:\KENT\PokemonStore\PokemonStoreTest\obj\Debug\PokemonStoreTest.pdb

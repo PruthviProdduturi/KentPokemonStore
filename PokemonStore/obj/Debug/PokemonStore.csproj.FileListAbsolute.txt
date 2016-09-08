@@ -1,0 +1,8 @@
+D:\KENT\PokemonStore\PokemonStore\bin\Debug\PokemonStore.exe.config
+D:\KENT\PokemonStore\PokemonStore\obj\Debug\PokemonStore.PokemonStoreForm.resources
+D:\KENT\PokemonStore\PokemonStore\obj\Debug\PokemonStore.Properties.Resources.resources
+D:\KENT\PokemonStore\PokemonStore\obj\Debug\PokemonStore.csproj.GenerateResource.Cache
+D:\KENT\PokemonStore\PokemonStore\bin\Debug\PokemonStore.exe
+D:\KENT\PokemonStore\PokemonStore\bin\Debug\PokemonStore.pdb
+D:\KENT\PokemonStore\PokemonStore\obj\Debug\PokemonStore.exe
+D:\KENT\PokemonStore\PokemonStore\obj\Debug\PokemonStore.pdb
