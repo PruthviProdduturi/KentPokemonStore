@@ -1,0 +1,26 @@
+## .NET / Visual Studio
+[Bb]in/
+[Oo]bj/
+[Dd]ebug/
+[Rr]elease/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vs/
+*.cache
+*.rsuser
+*.userprefs
+*.pidb
+*.pdb
+*.opendb
+
+## NuGet
+packages/
+*.nupkg
+
+## OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

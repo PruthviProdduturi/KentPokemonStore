@@ -1,0 +1,14 @@
+###############################################################################
+# Set default behavior to automatically normalize line endings.
+###############################################################################
+* text=auto
+
+# C# source
+*.cs text diff=csharp
+*.sln text eol=crlf
+*.csproj text eol=crlf
+
+# Binary
+*.exe binary
+*.dll binary
+*.pdb binary

@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PokemonStore")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Pokemon Store")]
+[assembly: AssemblyDescription("Pokemon inventory pricing calculator with tiered discounts")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PokemonStore")]
+[assembly: AssemblyCompany("Kent State University")]
+[assembly: AssemblyProduct("Pokemon Store")]
 [assembly: AssemblyCopyright("Copyright ©  2016")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]

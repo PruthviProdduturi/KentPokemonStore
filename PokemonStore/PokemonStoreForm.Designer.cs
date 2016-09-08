@@ -31,6 +31,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.priceLb = new System.Windows.Forms.Label();
             this.subBtn = new System.Windows.Forms.Button();
+            this.clearBtn = new System.Windows.Forms.Button();
             this.charmBox = new System.Windows.Forms.TextBox();
             this.squBox = new System.Windows.Forms.TextBox();
             this.pikaBox = new System.Windows.Forms.TextBox();
@@ -70,7 +71,18 @@
             this.subBtn.Text = "Calculate";
             this.subBtn.UseVisualStyleBackColor = true;
             this.subBtn.Click += new System.EventHandler(this.subBtn_Click);
-            // 
+            //
+            // clearBtn
+            //
+            this.clearBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.clearBtn.Location = new System.Drawing.Point(420, 376);
+            this.clearBtn.Name = "clearBtn";
+            this.clearBtn.Size = new System.Drawing.Size(120, 55);
+            this.clearBtn.TabIndex = 30;
+            this.clearBtn.Text = "Clear";
+            this.clearBtn.UseVisualStyleBackColor = true;
+            this.clearBtn.Click += new System.EventHandler(this.clearBtn_Click);
+            //
             // charmBox
             // 
             this.charmBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -149,6 +161,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.priceLb);
             this.Controls.Add(this.subBtn);
+            this.Controls.Add(this.clearBtn);
             this.Controls.Add(this.charmBox);
             this.Controls.Add(this.squBox);
             this.Controls.Add(this.pikaBox);
@@ -157,7 +170,7 @@
             this.Controls.Add(this.LbPikachu);
             this.Controls.Add(this.label1);
             this.Name = "PokemonStoreForm";
-            this.Text = "PokemonStoreForm";
+            this.Text = "Pokemon Store - Pricing Calculator";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,5 +188,6 @@
         private System.Windows.Forms.Label LbSquirtle;
         private System.Windows.Forms.Label LbPikachu;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button clearBtn;
     }
 }

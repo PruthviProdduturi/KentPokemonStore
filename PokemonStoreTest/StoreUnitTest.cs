@@ -96,5 +96,53 @@ namespace PokemonStoreTest
             double result = poke.PriceCalculator(4, 2, 1); // Pikachu,Squirtle,Charmander
             Assert.AreEqual(34.70, result);
         }
+
+        [TestMethod]
+        public void AllZeros_ReturnsZero()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(0, 0, 0);
+            Assert.AreEqual(0.00, result);
+        }
+
+        [TestMethod]
+        public void OnlySquirtle_NoDiscount()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(0, 3, 0);
+            Assert.AreEqual(15.00, result);
+        }
+
+        [TestMethod]
+        public void OnlyCharmander_NoDiscount()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(0, 0, 4);
+            Assert.AreEqual(20.00, result);
+        }
+
+        [TestMethod]
+        public void SquirtleAndCharmander_TenPercentDiscount()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(0, 2, 2);
+            Assert.AreEqual(18.00, result);
+        }
+
+        [TestMethod]
+        public void LargeOrder_AllThreeTypes()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(10, 10, 10);
+            Assert.AreEqual(128.00, result);
+        }
+
+        [TestMethod]
+        public void EqualPairsOnly_PikaAndCharm()
+        {
+            PokemonStoreForm poke = new PokemonStoreForm();
+            double result = poke.PriceCalculator(1, 0, 1);
+            Assert.AreEqual(9.90, result);
+        }
     }
 }
